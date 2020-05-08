@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    font-size: 100px;
+    margin: 200px 0 0 120px;
+}
+article{
+    display: flex;
+    cursor: pointer;
+}
+
+div{
+    color: yellow;
+}
+article > span:hover{
+    color: #EA4963;
+}
+span:hover ~ span{
+    color: white;
+}
+span:hover + span{
+    color: #F08EB1;
+}
